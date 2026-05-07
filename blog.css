@@ -1,3 +1,4 @@
+
 body {
   background-color: rgb(244, 208, 78);
   width: 100%;
@@ -10,10 +11,12 @@ main {
   justify-content: center;
   align-items: center;
   height: 100vh;
+   font-family: "Figtree", sans-serif;
 }
 .blog > img {
   width: 300px;
   border-radius: 15px;
+  padding-bottom: 10px;
 }
 
 .blog {
@@ -21,19 +24,43 @@ main {
   background-color: #f2f2f2;
   width: 300px;
   border-radius: 15px;
-  padding: 12px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 18px;
+  box-shadow: 10px  10px;
 }
 
+.date {
+    font-size: 13px;
+    font-weight: 600;
+}
 .learn {
   background-color: rgb(244, 208, 78);
-  width: fit-content;
+  width: 75px;
+  padding: 1px ;
+  border-radius: 5px;
 }
 .learn p {
   margin: 5px;
+  margin-left: 10px;
   font-weight: 600;
+  font-size: 0.85em;
+}
+h2 {
+    font-size: 23px;
+    font-size: 700;
+}
+.words {
+    font-size: 0.9em;
+    opacity: 0.5;
 }
 .footer {
     display: flex;
     gap: 15px;
+}
+.footer>img {
+    width: 32px;
+    height: 32px;
+}
+h3 {
+    font-size: 0.87em;
+    margin-top: 10px;
 }
